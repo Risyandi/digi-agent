@@ -6,17 +6,12 @@ html {
     color: #777;
 }
 
-.bgimg-1,
-.bgimg-2,
-.bgimg-3 {
+.head-img {
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.bgimg-1 {
-    background-image: url("../images/sites-digiagent-fullwidth.jpg");
+    background-image: url("../images/head-img-desktop.jpg");
     height: 100%;
 }
 
@@ -45,8 +40,8 @@ h3 {
 }
 
 @media only screen and (max-device-width: 425px) {
-    .bgimg-1 {
-        background-image: url("../images/sites-digiagent-fullwidth-mob.jpg");
+    .head-img {
+        background-image: url("../images/head-img-mobile.jpg");
         height: 100%;
     }
 }
